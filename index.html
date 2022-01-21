@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Portifólio</title>
+</head>
+<body>
+    <header class="header-container">
+      <h1>Cristian Albrecht</h1>
+      <h2>FullStack Developer</h2>
+      <div class="social-media">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+      </div>
+    </header>
+    <div class="projects">
+        <button class="button" onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth'});">Projetos  <i class="arrow down"></i></button>
+    </div>
+    <main class="container" id="projects">
+        <div class="card-container">
+          <a href="https://cwtictactoe.netlify.app/jogo/tictactoe/public/" target="_blank">
+            <div class="card card-1">
+                <div class="card-wrapper">
+                  <h2>TicTacToe</h2>
+                  <p>Vem ver</p>
+                </div>
+            </div>
+          </a>
+          <div class="card-text">
+              Procurando desafiar os meus conhecimentos em JavaScript, resolvi criar a minha versão do famoso jogo da velha.
+          </div>
+        </div>
+        <div class="card-container">
+           <a href="https://sds1-cwilliam.netlify.app/" target="_blank">
+              <div class="card card-2">
+                <div class="card-wrapper">
+                  <h2>Big Name Survey</h2>
+                  <p>Vem ver</p>
+                </div>
+              </div>
+          </a>
+          <div class="card-text">
+            Este projeto foi desenvolvido no evento Semana DevSuperior.
+            Esta aplicação é uma pesquisa de preferência de games, conta com a versão web e também versão mobile. 
+          </div>
+        </div>
+    </main>
+    <footer class="footer">
+        Feito por mim mesmo
+    </footer>
+</body>
+</html>
